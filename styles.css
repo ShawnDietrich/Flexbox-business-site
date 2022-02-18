@@ -1,3 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Festive&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Festive&family=Merriweather:ital@0;1&family=Playball&family=Work+Sans:wght@400;500;800&display=swap');
+html{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    background-color: antiquewhite;
+}
 
+.header {
+    width: 100%;
+    display: flex;
+    background-color: cornsilk;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1%;
+}
 
+.logo h1 {
+    font-family: Festive;
+    margin: auto 0%;
+}
+
+.header .links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    width: 20%;
+}
+
+.links a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: darkgray;
+    font-size: 0.75rem;
+    font-family: Playball;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    padding: 30% 0px;
+    margin: 30px;
+    background-image: url("images/aboutbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+
+#about .content{
+    background-color: antiquewhite;
+    border-radius: 2%;
+    width: 75%;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+#about .content p{
+    font-family: Playball;
+    color: darkslategray;
+    font-size: 1.5rem;
+}
+
+#capability {
+  min-height: 500px;
+  margin: auto;
+  padding: 30px 5%;
+}
+
+#capability .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+#capability .feature{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 2%
+}
+.feature img{
+    width: 100%;
+}
